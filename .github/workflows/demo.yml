@@ -19,5 +19,5 @@ jobs:
         with:
           distribution: 'oracle'
           java-version: '17'
-      - name: 'Set up Duke.java'
-        run: jshell autoexec.jshell
+      - name: 'Run Demo'
+        run: jshell demo.jshell

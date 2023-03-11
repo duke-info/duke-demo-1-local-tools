@@ -1,3 +1,24 @@
-Duke.run("greet")
+/open PRINTING
 
-Duke.run("3x")
+print("""
+|
+| Duke Demo 1 - Local Tools
+|
+""")
+
+println("\n| Load Duke.java into this JShell session")
+/open https://src.duke.run/Duke.java
+
+println("\n| Run echo tool with one argument")
+Duke.run("echo", "Hi")
+
+println("\n| Run times tool with three arguments")
+Duke.run("times", "3", "echo", "Ho")
+
+println("\n| Run echo tool with one argument, again")
+Duke.run("echo", "Bye")
+
+println("\n| Run a sequence of tool calls a single run context")
+Duke.run("echo", "Hi", "+", "times", "3", "echo", "Ho", "+", "echo", "Bye")
+
+/exit
