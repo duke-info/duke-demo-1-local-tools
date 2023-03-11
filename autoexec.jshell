@@ -1,0 +1,13 @@
+/open PRINTING
+
+print("""
+|
+| Duke Demo 1 - Local Tools
+|
+""")
+
+/open https://src.duke.run/Duke.java
+
+/open demo.jshell
+
+/exit

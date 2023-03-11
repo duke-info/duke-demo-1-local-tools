@@ -1,0 +1,3 @@
+Duke.run("greet")
+
+Duke.run("3x")
